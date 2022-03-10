@@ -11,15 +11,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="top">
+        <div className="menu">
           <img className="ironHack" src={ironLogo} alt="Ironhack logo" />
           <img className="ironMenu" src={ironMenu} alt="Ironhack menu" />
         </div>
-        <h1>
+        <h1 className="introductory-text">
           Say hello to
           <br /> ReactJS
         </h1>
-        <p>
+        <p className="introductory-text">
           You will learn how to use
           <br /> the most popular frontend library,
           <br /> and become a super Ninja developer.
@@ -28,22 +28,22 @@ function App() {
       </header>
       <div className="icons">
         <div className="icon">
-          <img src={icon1} alt="Easy to create interactive UIs icon"/>
+          <img src={icon1} alt="Easy to create interactive UIs icon" />
           <h2>Declarative</h2>
           <p>React makes it painless to create interactive UIs.</p>
         </div>
         <div className="icon">
-          <img src={icon2} alt="Build encapsulated components icon"/>
+          <img src={icon2} alt="Build encapsulated components icon" />
           <h2>Components</h2>
           <p>Build encapsulated components that manage their state.</p>
         </div>
         <div className="icon">
-          <img src={icon3} alt="Immutable values passed to component icon"/>
+          <img src={icon3} alt="Immutable values passed to component icon" />
           <h2>Single-Way</h2>
           <p>A set of immutable values are passed to the component's.</p>
         </div>
         <div className="icon">
-          <img src={icon4} alt="JSX runs on modern browsers icon"/>
+          <img src={icon4} alt="JSX runs on modern browsers icon" />
           <h2>JSX</h2>
           <p>Statically-typed, designed to run on modern browsers.</p>
         </div>
