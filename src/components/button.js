@@ -1,6 +1,6 @@
 const linkButton = <a href="index.html">
     <button className="awesomeBtn">
-        Awesome
+        Awesome!
     </button>
 </a>
 

@@ -37,12 +37,6 @@
   }
 }
 
-header {
-  background-color:azure;
-  width: 97%;
-  margin: 1rem auto;
-}
-
 .menu {
   display: flex;
   flex-direction: row;
@@ -62,7 +56,6 @@ header {
   display: flex;
   flex-direction: row;
   text-align: left;
-  justify-content: flex-start;
 }
 
 .awesomeBtn {
@@ -78,7 +71,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 50px;
+  margin-top: 100px;
 }
 
 .icon {
