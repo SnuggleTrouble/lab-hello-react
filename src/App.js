@@ -5,6 +5,7 @@ import icon3 from "../src/images/icon3.png";
 import icon4 from "../src/images/icon4.png";
 import ironLogo from "../src/images/ironhack-logo-xs.png";
 import ironMenu from "../src/images/menu-top-xs.png";
+import Button from "../src/components/button"
 import "./App.css";
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
           <br /> the most popular frontend library,
           <br /> and become a super Ninja developer.
         </p>
-        <button>Awesome</button>
+        {Button}
       </header>
       <div className="icons">
         <div className="icon">

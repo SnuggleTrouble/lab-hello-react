@@ -37,14 +37,51 @@
   }
 }
 
-.menu {}
+header {
+  background-color:azure;
+  width: 97%;
+  margin: 1rem auto;
+}
 
-.ironHack {}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
-.ironMenu {}
+.ironHack {
+  width: 50px;
+}
 
-.introductory-text {}
+.ironMenu {
+  width: 50px;
+}
 
-.icons {}
+.introductory-text {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: flex-start;
+}
 
-.icon {}
+.awesomeBtn {
+  padding: 20px;
+  background-color: azure;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50px;
+}
+
+.icon {
+  text-align: left;
+  margin: 0px;
+}
